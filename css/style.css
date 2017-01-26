@@ -1,0 +1,1280 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans, Arial, sans-serif;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.hero-img {
+    width: auto;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/cover.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w-block {
+    display: block;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+}
+.w-clearfix:after {
+    clear: both;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+.wrapper {
+    background: #fafafa;
+    height: 100%;
+    border: border-box;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background: #fafafa;
+    border: border
+}
+.profile-ribbon {
+    width: 170px;
+    height: 40px;
+    background-image: url('../images/ribbon-profile.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 90px;
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+    line-height: 1.6;
+    padding-left: 15px;
+}
+/* LEFT SECTION */
+
+.left-col {
+    height: 100%;
+    padding: 0;
+    position: relative;
+    top: -70px;
+    margin-bottom: -70px;
+}
+.right-col {
+    width: 100%:
+    height: auto;
+    padding: 0;
+    border-left: 1px rgba(0, 0, 0, .1) solid;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: white;
+}
+.profile-img {
+    border: 15px solid #fafafa;
+    border-radius: 50%;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('../images/profile.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.nickname {
+    margin-top: 6px;
+    color: #4c99f0;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+.real-name {
+    margin-top: 14px;
+    color: #000;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.small-text {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    color: #50515e;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.follow {
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 130px;
+}
+.following-btn {
+    font-weight: 600;
+    color: #50515e;
+    border-radius: 10px;
+    background-color: #fafafa;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 110px;
+    float: left;
+    border: 1px solid #50515e;
+     box-shadow: inset 0 -1px 0 #50515e;
+    box-sizing: border-box;
+}
+.following-btn:hover {
+    background: #eeeeee;
+}
+.follow-btn {
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    float: left;
+}
+.follow-btn:hover {
+    color: white;
+    background-color: hsla(0, 0%, 50%, .77);
+}
+.follow-button {
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    float: left;
+}
+.follow-button:hover {
+    color: white;
+    background-color: hsla(0, 0%, 50%, .77);
+}
+.follow:hover {
+    color: white;
+    background-color: hsla(0, 0%, 50%, .77);
+}
+
+.likes {
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.like-count {
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 18px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.tittle {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #808080;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 70px;
+}
+.like {
+    position: relative;
+    top: -8px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.about-me {
+    margin-top: 10px;
+    padding: 25px 35px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+}
+.email {
+    display: block;
+    margin: 10px auto;
+    width: 260px;
+}
+.email img {
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+}
+.email-input {
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+}
+.blog {
+    display: block;
+    margin: 10px auto;
+    width: 260px;
+}
+.blog img {
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+}
+.blog-input {
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+}
+.social {
+    margin: 0 auto;
+    width: 37px;
+    height: 37px;
+    margin: 0 2%;
+    display: inline-block;
+    text-align: center;
+
+}
+.social-icons {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.fb {
+    background-image: url('../images/facebook.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tw {
+    background-image: url('../images/twitter.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gp {
+    background-image: url('../images/googleplus.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.in {
+    background-image: url('../images/instagram.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bl {
+    background-image: url('../images/blog.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ma {
+    background-image: url('../images/mail.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* RIGHT SECTION */
+
+.tabs {
+    height: 70px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+
+}
+#following {
+    padding: 0;
+    margin: 0;
+}
+.tabs img {
+    padding-right: 10px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.text-holder {
+    font-size: 25px;
+}
+.inside {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #50515e;
+}
+.numb {
+    padding-left: 10px;
+}
+.right-menu {
+    color: #636470;
+    background-color: transparent;
+    font-style: italic;
+    text-align: center;
+    border: 0;
+    position: relative;
+    padding: 0;
+    list-style: none;
+    z-index: 2;
+
+}
+.right-menu .nav-tabs > li > a{
+    margin: 0;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    display: block;
+
+}
+
+.right-menu > li > a:hover{
+    background-color: #eeeeee !important;
+    box-shadow: inset 0 -3px 0 #50515e;
+}
+.right-menu > li.active > a {
+    background-color: #eeeeee !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    display: block;
+    position: relative;
+    box-shadow: inset 0 -3px 0 #50515e;
+
+}
+.nav-justified > li {
+    display: table-cell;
+}
+/* POSTS PANEL */
+
+#cat1:hover, #cat1:focus {
+    border-bottom: 2px solid black;
+    color: black;
+}
+#cat2:hover, #cat2:focus {
+    border-bottom: 2px solid #c3c46b;
+    color: #c3c46b;
+}
+#cat3:hover, #cat3:focus {
+    border-bottom: 2px solid #ef438d;
+    color: #ef438d;
+}
+#cat4:hover, #cat4:focus {
+    border-bottom: 2px solid #8445ff;
+    color: #8445ff;
+}
+#cat5:hover, #cat5:focus {
+    border-bottom: 2px solid #67b1e0;
+    color: #67b1e0;
+}
+#cat6:hover, #cat6:focus {
+    border-bottom: 2px solid #3185c5;
+    color: #3185c5;
+}
+#cat7:hover, #cat7:focus {
+    border-bottom: 2px solid #f7c236;
+    color: #f7c236;
+}
+.category-menu {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #eee;
+    border-radius: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.categoty-menu li a {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #50515e; 
+    padding: 0;
+}
+.category-menu li a {
+    height: auto;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    background-color: #eee;
+    border: 0;
+    height: 50px;
+    border-radius: 0;
+    position: relative;
+    padding: 10px 0 0 0;
+
+}
+.hide {
+    display: hide;
+}
+.post-panel {
+    background: white;
+    width: 100%;
+}
+.post-box {
+    position: relative;
+    display: block;
+    width: 600px;
+    margin: 60px auto;
+    box-shadow: -1px 1px 5px 2px hsla(0, 0%, 45%, .38);
+    color: #fff;
+    font-weight: 400;
+}
+.post-box:hover {
+    box-shadow: -1px 1px 5px 2px hsla(0, 0%, 45%, .36);    
+}
+.post-bottom {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    height: 70px;
+    background-color: #fafafa;
+}
+.send {
+    width: 46px;
+    height: 46px;
+    background-image: url(../images/send.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 20px;
+}
+.image-box {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    height: 530px;
+    float: none;
+}
+#post1 {
+    background-color: rgba(78, 168, 230, .67);
+    background-image: url('../images/post1.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;  
+}
+#post2 {
+    background-color: rgba(78, 168, 230, .67);
+    background-image: url('../images/post2.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;  
+}
+#post3 {
+    background-color: rgba(78, 168, 230, .67);
+    background-image: url('../images/post3.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;  
+}
+.post-info {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 70px;
+    display: block;
+    width: 100%;
+    background-image: -webkit-linear-gradient(89deg, #000, hsla(0, 0%, 100%, 0) 87%);
+    background-image: linear-gradient(1deg, #000, hsla(0, 0%, 100%, 0) 87%);
+    color: #fff;
+    text-decoration: none;
+}
+
+.post-date {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: -10px;
+}
+
+.post-headline {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    direction: ltr;
+    color: #fff;
+    font-size: 19px;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.post-headline:hover {
+    text-decoration: underline;
+}
+
+.postbox-likes {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 20%;
+    height: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+    color: #50515e;
+    font-size: 20px;
+}
+
+.postbox-profile {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+    float: left;
+}
+
+.post-nick {
+    display: block;
+    height: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    color: #4c99f0;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+.post-real-name {
+    display: block;
+    height: 40%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: left;
+    color: #50515e;
+    font-size: 15px;
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+}
+.ribbon {
+    position: absolute;
+    top: 22px;
+    right: -7px;
+    width: 106px;
+    height: 30px;
+    float: right;
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+}
+.fashion {
+    background-image: url('../images/ribbon-fashion.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat; 
+}
+.beauty {
+    background-image: url('../images/ribbon-beauty.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;     
+}
+.style {
+    background-image: url('../images/ribbon-style.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;     
+}
+.lifestyle {
+    background-image: url('../images/ribbon-lifestyle.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;     
+}
+.travel {
+    background-image: url('../images/ribbon-travel.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;     
+}
+.inspiration {
+    background-image: url('../images/ribbon-inspiration.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;     
+}
+
+.post-counter {
+    display: inline-block;
+    padding-top: 13px;
+    float: right;
+}
+.post-diamond {
+    float: right;
+}
+.profile-placeholder-post {
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+    padding-top: 6px;
+    float: left;
+}
+
+/*   FOLLOWERS PANEL */
+
+.followers-box {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    margin-top: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #fafafa;
+    box-shadow: -1px 1px 3px 0 rgba(0, 0, 0, .28);
+}
+
+.followers-placeholder {
+    display: inline-block;
+    float: left;
+}
+
+.following-count {
+    display: inline-block;
+    width: 40%;
+    float: left;
+}
+
+.follower-profile {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+.follower-nickname {
+    display: block;
+    color: #4c99f0;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: none;
+    float: left;
+    margin-right: 100px;    
+}
+
+.follower-info {
+    display: block;
+    padding-top: 5px;
+    float: left;
+}
+
+.follower-realname {
+    padding-top: 3px;
+    padding-bottom: 6px;
+    font-size: 17px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+}
+
+.follower-button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px 4px;
+    float: left;
+    border-radius: 10px;
+    background-color: grey;
+    text-align: center;
+}
+
+.follower-button:hover {
+    background-color: hsla(0, 0%, 50%, .77);
+}
+
+.follower-tagline {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    float: left;
+    clear: both;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.followers-count {
+    display: inline-block;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.follower-counter {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+.followers-panel {
+    width: 100%;
+    height: 1000px;
+    background: white;
+}
+.following-panel {
+    width: 100%;
+    background: white;
+}
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+    
+.hero-img {
+    height: 280px;
+}
+.nickname {
+    margin-top: 0px;
+}
+.real-name {
+    margin: 10px;
+}
+.follow {
+    margin: 10px auto;
+}
+.likes {
+    display: none;
+}
+.tittle {
+    display: none;
+}
+.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+}
+.small-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.social-icons {
+    padding: 10px;
+}
+.nav-justified > li > a  {
+    border-radius: 0px 0px 0 0 !important;
+    margin-bottom: 0 !important;
+}
+.category-menu a {
+    font-size: 16px;
+}
+.about-me {
+    padding: 0;
+    width: 60%;
+    margin: 0 auto;
+}
+.post-box {
+    width: 500px;
+    height: 500px;
+}
+.image-box {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 430px;
+}
+.post-info {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 62px;
+}
+.post-date {
+    margin-bottom: -10px;
+}
+.followers-box {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.following-count {
+    width: 40%;
+}
+.followers-box {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.following-count {
+    width: 40%;
+}
+.text-holder {
+    font-size: 22px;
+}   
+.small-text {
+    display: none;
+}  
+}   
+
+/* TABLET RESPONSIVE*/
+
+
+@media (max-width: 767px) {
+
+.hero-img {
+    height: 220px;
+}
+.profile-img {
+    width: 140px;
+    height: 140px;
+}
+.profile-ribbon {
+    width: 140px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.nickname {
+    margin-top: 0px;
+    font-size: 21px;
+}
+.real-name {
+    font-size: 18px;
+}
+.about-me {
+    margin-top: 0;
+    font-size: 16px;
+    padding: 5px;
+}
+.small-text {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #50515e;
+    font-size: 20px;
+    line-height: 28px;
+}
+.follow {
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 130px;
+    font-weight: 400;
+}
+.category-menu li a {
+    height: 40px;
+    font-size: 15px;
+}
+.tittle {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.text-holder {
+    font-size: 20px;
+}
+.post-box {
+    width: 400px;
+    height: 400px;
+}
+.post-bottom {
+    height: 50px;
+}
+.image-box {
+    height: 350px;
+}
+.send {
+    width: 38px;
+    height: 38px;
+}
+.post-info {
+    left: 0px;
+    right: 0px;
+    bottom: 40px;
+}
+.post-date {
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+.post-headline {
+    font-size: 16px;
+    margin: 0;
+}
+.postbox-likes {
+    width: 30%;
+    padding-top: 0px;
+}
+.postbox-profile {
+    width: 70%;
+}
+.post-nick {
+    left: 50px;
+    top: -5px;
+    font-size: 16px;
+}
+.post-real-name {
+    top: 22px;
+    left: 50px;
+    font-size: 12px;
+}
+.ribbon {
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 21px;
+}
+.post-counter {
+    font-size: 18px;
+}
+.profile-post-img {
+    width: 36px;
+    height: 36px;
+}
+.small-text {
+    display: none;
+}
+.follow {
+    margin-top: 5px;
+    font-size: 18px;
+    width: 130px;
+}
+.text-holder {
+    font-size: 15px;
+}
+.email-input {
+    font-size: 15px;
+}
+.blog-input {
+    font-size: 15px;
+}
+}
+/* MOBILE RESPONSIVE */
+
+
+@media (max-width: 479px) {
+
+.hero-img {
+    height: 200px;
+}
+
+.profile-img {
+    border-width: 10px;
+    width: 130px;
+    height: 130px;
+}
+.profile-ribbon {
+    width: 110px;
+    height: 20px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+.nickname {
+    font-size: 16px;
+}
+.real-name {
+    margin: 0;
+    font-size: 14px;
+}
+.follow {
+    margin: 5px auto;
+    font-size: 18px;
+    width: 100px;
+    font-weight: 400;
+}
+.about-me {
+    margin-top:0;
+    font-size: 14px;
+    padding: 2px 0;
+}
+.small-text {
+    display: none;
+}
+.category-menu {
+    height: 36px;
+}
+.category-menu a {
+    height: 36px;
+    color: black;
+    font-style: italic;
+}
+.category-menu li a {font-size: 12px;}
+.inside img {
+    width: 18px;
+    height: 14px;
+    padding: 0px;
+}
+.post-box {
+    width: 270px;
+    height: 250px;
+    margin: 30px auto;
+}
+.post-bottom {
+    font-size: 14px;
+}
+.image-box {
+    height: 250px;
+}
+.post-info {
+    bottom: 45px;
+    height: 40px;
+}
+.post-date {
+    font-size: 9px;
+}
+.post-headline {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size: 9px;
+}
+.send {
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    left: 10px;
+}
+.postbox-likes {
+    padding-right: 5px;
+    width: 30%;
+}
+.post-diamond {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+.postbox-profile {
+    padding-left: 5px;
+    width: 70%;
+}
+.post-nick {
+    left: 40px;
+    top: -5px;
+    font-size: 14px;
+}
+.post-real-name {
+    top: 20px;
+    left: 40px;
+    font-size: 10px;
+}
+.ribbon {
+    width: 68px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 16px;
+    top: 15px;
+    right: -3px;
+    padding-right: 5px;
+}
+.followers-box {
+    display: block;
+    width: 260px;
+    height: auto;
+}
+.follower-nickname {
+    font-size: 14px;
+    float: left;
+    display: block;
+    margin-right: 100px;
+}
+.follower-realname {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    display: block;
+}
+.follower-button {
+    font-size: 12px;
+}
+.follower-tagline {
+    padding-top: 6px;
+    font-size: 13px;
+    text-align: left;
+}
+.followers-count {
+    margin-right: 10px;
+    float: right;
+    font-size: 13px;
+}
+.follower-counter {
+    margin-top: 5px;
+    align-items: center;
+}
+.post-counter {
+    font-size: 14px;
+}
+.post-diamond {
+    max-width: 89%;
+}
+.following-count {
+    width: 50%;
+}
+.followers-box {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+.follower-nickname {
+    font-size: 14px;
+    float: left;
+}
+.follower-button {
+    font-size: 12px;
+}
+.follower-tagline {
+    padding-top: 6px;
+    font-size: 13px;
+    text-align: left;
+}
+.followers-count {
+    margin-right: 10px;
+    float: right;
+    font-size: 13px;
+}
+.follower-counter {
+    margin-top: 5px;
+    float: left;
+}
+.following-count {
+    width: 50%;
+    padding-right: 18px;
+
+}
+.follower-info {
+    width: 200px;
+    display: inline-block;
+}
+.text-holder {
+    font-size: 14px;
+}
+.tabs {
+    height: 50px;
+}
+.tabs img {
+    padding-right: 5px;
+}
+.email {
+    padding-left: 17px;
+}
+.email img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+ .blog img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+.blog-input {font-size: 13px;}
+.email-input {font-size: 13px;}
+.blog {
+    padding-left: 17px;
+}
+.social-icons {padding:5px auto;}
+.social {
+    width: 30px;
+    height: 30px;
+}
+.nav-justified > li {
+    display: table-cell; 
+    width: 1%
+}
+.followers-placeholder img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+}
+@media (max-width: 320px){
+.inside img {
+    display: none;
+}
+}
